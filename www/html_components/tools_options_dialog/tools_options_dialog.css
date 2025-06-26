@@ -1,0 +1,12 @@
+#tools_options_dialog_id {
+  font-size:         18px;
+  background-color:  lightred;
+  overflow:          hidden;
+}
+
+.DialogBox {
+  font-size:         12px;
+  background:        lightred;
+  background-color:  lightred;
+}
+

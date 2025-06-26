@@ -1,0 +1,100 @@
+<table class="Dialog_Form" height="100%">	
+	<!-- ------------  Default Blockchain ------------ -->
+	<tr height="80%">
+		<td class="Dialog_LabelColumn">
+			<span id="default_blockchain_label_id" 
+			      class="LabelColumn">Default Blockchain</span>			
+		</td>
+		<td class="Dialog_FieldColumn" colspan="2">
+			<select id="tod_default_blockchain_select_id" 
+					class="Dialog_DataField"> 
+				<option value="XX" selected>XX</option>	
+			</select>
+		</td>
+	</tr>
+	<!-- ------------  Default Blockchain -->
+	
+	<!-- ----------------  Wallet Mode ---------------- -->
+	<tr height="80%">
+		<td class="Dialog_LabelColumn">
+			<span id="wallet_mode_label_id" 
+			      class="LabelColumn">Wallet Mode</span>			
+		</td>
+		<td class="Dialog_FieldColumn" colspan="2">
+			<select id="tod_wallet_mode_select_id" 
+					class="Dialog_DataField"> 
+				<option value="Simple Wallet" selected>Simple Wallet</option>	
+				<option value="HD Wallet">HD Wallet</option>
+                <option value="SWORD Wallet">SWORD Wallet</option>								
+			</select>				
+			</select>
+		</td>
+	</tr>
+	<!-- ----------------  Wallet Mode -->
+	
+	<!-- ----------------  Entropy Size ---------------- -->
+	<tr height="80%">
+		<td class="Dialog_LabelColumn">
+			<span id="tod_entropy_size_label_id" 
+			      class="LabelColumn">Entropy Size</span>			
+		</td>
+		<td class="Dialog_FieldColumn" colspan="2">
+			<select id="tod_entropy_size_select_id" 
+					class="Dialog_DataField"> 
+				<option value="128" selected>128 bits</option>	
+				<option value="160">160 bits</option>
+				<option value="192">192 bits</option>
+				<option value="224">224 bits</option>							
+				<option value="256">256 bits</option>						
+			</select>
+			<span id="tod_sw_entropy_size_id">256 bits</span>
+		</td>
+	</tr>
+	<!-- ----------------  Entropy Size -->
+	
+	<tr>
+		<td colspan="2">
+			<center><span>&nbsp;<span></center>									
+		</td>
+	</tr>
+	<tr height="20%">
+		<td colspan="2">
+			<table width="100%">
+				<tr id="buttons_bar">
+					<td width="15%"><center><span>&nbsp;<span></center>									
+					</td>
+					<td width="12,5%">
+						<center><input class="SaveButton" id="tod_save_button_id" 
+									   type="button" value="Save...">
+						</center>
+					</td>
+					<td width="20px"><center><span>&nbsp;<span></center>									
+					</td>
+					<td width="12,5%">
+						<center><input class="RestoreButton" 
+						               id="tod_restore_button_id" 
+									   type="button" value="Restore...">
+						</center>
+					</td>
+					<td width="20px"><center><span>&nbsp;<span></center>									
+					</td>					
+					<td width="12,5%">
+						<center><input class="ApplyButton" 
+						               id="tod_apply_button_id" 
+									   type="button" value="Apply">
+						</center>
+					</td>
+					<td width="20px"><center><span>&nbsp;<span></center>									
+					</td>
+					<td width="12,5%">
+						<center><input class="CancelButton" id="tod_cancel_button_id" 
+									   type="button" value="Cancel">
+						</center>
+					</td>
+					<td width="15%"><center><span>&nbsp;<span></center>									
+					</td>					
+				</tr>
+			</table>
+		</td>
+	</tr>	
+</table>
